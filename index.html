@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="device=device-width, initial-scale =1.0" />
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');</style>
+    <script src="script.js"></script>
+    <title>Odin Sign Up Form</title>
+</head>
+
+<body>
+    <div>
+        <div class="pic">
+
+        </div>
+        <div class="info">
+            <div class="intro">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.<br /><br />You <i>know</i> you want to.</p>
+            </div>
+
+            <div class="login">
+                <form action="https://httpbin.org/post" method="post">
+                    <div class="upper">
+                        <p>Let's do this!</p>
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" name="firstName" id="firstName" required/>
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" name="lastName" id="lastName" required/>
+                        </div>
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email" required/>
+                        </div>
+                        <div>
+                            <label for="number">PHONE NUMBER</label>
+                            <input type="tel" name="number" id="number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="000-000-0000" required/>
+                        </div>
+                        <div>
+                            <label for="passW">PASSWORD</label>
+                            <input type="password" name="passW" id="passW" required/>
+                        </div>
+                        <div>
+                            <label for="cpassW">CONFIRM PASSWORD</label>
+                            <input type="password" name="cpassW" id="cpassW" required />
+                        </div>
+                    </div>
+                    <div class="lower">
+                        <button type="submit">Create Account</button>
+                        <p>Already have an account? Login</p>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
