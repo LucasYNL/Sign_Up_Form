@@ -6,7 +6,70 @@ html {
     font-family: 'Tilt Neon', sans-serif;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1e1e1e;
+    margin: 0;
+}
+
 h1{
     font-size: 10px;
 }
 
+.everything{
+    width: 1300px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.backg {
+    height: 100vh;
+    width: 100%;
+}
+
+.logoD {
+    height: 140px;
+    position: relative;
+    background-color: rgb(20, 20, 20, 0.6);
+    top: -725px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 20%;
+    height: 90%;
+    opacity: 100%;
+}
+
+.logoD p {
+    opacity: 100%;
+    color: white;
+    font-size: 80px;
+    margin: 0;
+    opacity: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    flex-grow: 1;
+}
+
+.intro{
+
+}
+
+.upper{
+
+}
+
+.lower{
+
+}
